@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	// Create keys using his GenerateKeys function within ECC call
+	// Create keys using his GenerateKeys function within ECC call and the highest level P521
 	pub, priv, _ := ecc.GenerateKeys(elliptic.P521())
 
 	// Asks for user input for plaintext
